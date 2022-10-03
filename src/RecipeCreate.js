@@ -22,6 +22,7 @@ function RecipeCreate({formData, handleChange, handleSubmit}) {
                   name="name"
                   onChange={handleChange}
                   value={formData.name}
+                  required
                 />
               </label>
             </td>
@@ -35,6 +36,7 @@ function RecipeCreate({formData, handleChange, handleSubmit}) {
                   name="cuisine"
                   onChange={handleChange}
                   value={formData.cuisine}
+                  required
                 />
               </label>
             </td>
@@ -48,6 +50,7 @@ function RecipeCreate({formData, handleChange, handleSubmit}) {
                   name="photo"
                   onChange={handleChange}
                   value={formData.photo}
+                  required
                 />
               </label>
             </td>
@@ -61,6 +64,7 @@ function RecipeCreate({formData, handleChange, handleSubmit}) {
                   name="ingredients"
                   onChange={handleChange}
                   value={formData.ingredients}
+                  required
                 />
               </label>
             </td>
@@ -73,14 +77,13 @@ function RecipeCreate({formData, handleChange, handleSubmit}) {
                   name="preparation"
                   onChange={handleChange}
                   value={formData.preparation}
+                  required
                 />
               </label>
             </td>
-
             <td>
               <button type="submit">Create</button>
             </td>
-
           </tr>
         </tbody>
       </table>
