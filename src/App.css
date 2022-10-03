@@ -53,6 +53,10 @@ td {
   text-align: center;
 }
 
+input {
+  width: 100%;
+}
+
 /* table */
 
 table {
